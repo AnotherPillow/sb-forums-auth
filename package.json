@@ -1,0 +1,16 @@
+{
+  "name": "sb-forums-auth",
+  "version": "1.0.0",
+  "description": "Confirm your users' Skyblock forums accounts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AnotherPillow",
+  "license": "MIT",
+  "dependencies": {
+    "random-words": "^2.0.0",
+    "skyblock.js": "^1.4.4",
+    "uuid": "^9.0.1"
+  }
+}
