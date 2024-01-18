@@ -1,4 +1,5 @@
 import sb from 'skyblock.js'
+import { EventEmitter } from 'node:events'
 
 enum Event {
     'Error' = 'ErrorEmitted',
@@ -7,7 +8,7 @@ enum Event {
     'Profile' = 'ProfileEmitted'
 }
 
-export default class SBForumsAuth {
+export default class SBForumsAuth extends EventEmitter {
     Event: Event
     
     tokenType: 'uuid' | 'words'
